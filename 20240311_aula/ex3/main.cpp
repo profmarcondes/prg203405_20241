@@ -74,14 +74,14 @@ void Carro::print(){
 int main(){
     cout << "Exercício 3" << endl;
 
-    Carro obj1(45.0, 12.5);
-    Carro obj2(60.0, 6.0);
+    Carro obj1(45.0, 14);
+    Carro obj2(60.0, 10.0);
 
-    obj1.abastecer(68);
-    obj2.abastecer(15);
+    obj1.abastecer(20);
+    obj2.abastecer(30);
 
     obj1.percorrer(200);
-    obj2.percorrer(300);
+    obj2.percorrer(350);
 
     obj1.print();
     obj2.print();
