@@ -1,7 +1,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/linux,eclipse,c++
 # Edit at https://www.toptal.com/developers/gitignore?templates=linux,eclipse,c++
 
-*/solution
+*solution/
 
 ### C++ ###
 # Prerequisites
@@ -123,3 +123,7 @@ local.properties
 ## QT Creator rules - hugom
 *build-*
 *.pro.user
+
+## VisualStudio Code - hugom
+*build
+*.vscode
