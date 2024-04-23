@@ -127,3 +127,4 @@ local.properties
 ## VisualStudio Code - hugom
 *build
 *.vscode
+*.bkp
